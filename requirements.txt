@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+tensorflow
+FinanceDataReader
+plotly
+sklearn
+keras
+asyncio
+flask-cors
+gunicorn
