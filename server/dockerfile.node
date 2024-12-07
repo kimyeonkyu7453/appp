@@ -1,0 +1,15 @@
+# Dockerfile for Node.js app
+FROM node:16
+
+# 작업 디렉토리 설정
+WORKDIR /app
+
+# package.json 및 소스 코드 복사
+COPY package.json .
+COPY server.js .
+
+# 종속성 설치
+RUN npm install
+
+# Node.js 서버 실행
+CMD ["node", "server.js"]

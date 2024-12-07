@@ -1,0 +1,8 @@
+name: node-app
+type: docker
+docker:
+  file: ./Dockerfile.node
+  context: .
+resources:
+  cpu: 0.5
+  memory: 512Mi
